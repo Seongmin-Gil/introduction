@@ -1,0 +1,131 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+/* nav style */
+
+#logo {
+    font-size: 25px;
+    margin-left: 50px;
+    font-weight: 200%;
+}
+
+.nav-container {
+    background-color: gray;
+    height: 60px;
+}
+
+.nav-ul {
+    float: right;
+    font-size: 25px;
+    list-style: none;
+    height: 60px;
+    vertical-align: middle;
+}
+
+.nav-ul li {
+    float: left;
+
+}
+
+.nav-ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+/* main */
+.home {
+    background-color: black;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.home #name {
+    color: beige;
+    font-size: 3rem;
+    font-weight: 30px;
+}
+
+/* carousel */
+.carousel-inner {
+    text-align: center;
+    background-color: gray;
+    height: 400px;
+}
+
+.carousel-inner .img1 {
+    background-image: url("../images/img_1.jpeg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+}
+
+.carousel-inner .img2 {
+    background-image: url("../images/img_2.jpeg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+}
+
+.carousel-inner .img2 .intro {
+    color: whitesmoke;
+}
+
+.carousel-inner .img3 {
+    background-image: url("../images/img_3.jpeg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+}
+
+.helper {
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.intro {
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 300;
+}
+
+.intro h3 {
+    font-size: 30px;
+    font-weight: 500%;
+    margin-bottom: 30px;
+}
+
+.intro p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.intro a {
+    color: white;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: gray;
+    text-decoration: none;
+}
+
+/* link */
+.link {
+    margin-top: 80px;
+    text-align: center;
+}
+
+#git {
+    margin-right: 20px;
+}
