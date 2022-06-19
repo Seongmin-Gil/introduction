@@ -59,31 +59,31 @@ body {
 }
 
 .carousel-inner .img1 {
-    background-image: url("../images/img_1.jpeg");
+    background-image: url("../images/img_1.jpg");
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left center;
+    background-position: bottom center;
 }
 
 .carousel-inner .img2 {
-    background-image: url("../images/img_2.jpeg");
+    background-image: url("../images/img_2.jpg");
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left center;
+    background-position: center center;
 }
 
-.carousel-inner .img2 .intro {
-    color: whitesmoke;
-}
+/* .carousel-inner .img3 .intro {
+    color: rgb(162, 230, 136);
+} */
 
 .carousel-inner .img3 {
-    background-image: url("../images/img_3.jpeg");
+    background-image: url("../images/img_3.jpg");
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left center;
+    background-position: top top;
 }
 
 .helper {
@@ -93,7 +93,7 @@ body {
 }
 
 .intro {
-    color: black;
+    color: whitesmoke;
     display: inline-block;
     vertical-align: middle;
     font-weight: 300;
